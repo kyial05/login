@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    background-image: url(./scale_1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 50px;
+    flex-wrap: wrap;
+}
+#email{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+#password{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+#button{
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 24, 62);
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+#a{
+    background-color: black;
+    color: rgb(254, 24, 62);
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+@media(max-width: 500px){
+    body{
+        background-image: url(./Untitled.jpg);
+        background-size: cover;
+    }
+}
